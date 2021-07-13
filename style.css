@@ -1,0 +1,134 @@
+/*--------------------------------/*
+        Fonts
+/*--------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*--------------------------------/*
+    common styles
+/*--------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+/*--------------------------------/*
+    Banner Section style
+/*--------------------------------*/
+.top-banner{
+    display: flex;
+    justify-content: space-around;
+    height: 677px;
+    background-color: #2D25A0;
+    align-items: center;
+}
+.banner-title{
+    color: #FFFFFF;
+}
+.banner-title h1{
+    font-size: 64px;
+    line-height: 80px;
+    
+}
+.banner-title button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    transition: width 1s, height 1s, transform 1s;
+}
+.banner-title button:hover{
+    width: 170px;
+    height: 46px;
+    transform: scale(1, 1);
+}
+.banner-title button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 5px;
+}
+
+.banner-title .arrow-icon{
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+}
+.banner-image img{
+    transition: transform 1.5s ease;
+}
+.banner-image img:hover{
+    transform: translate(50px);
+    
+}
+
+/*--------------------------------/*
+    Player-list Section style
+/*--------------------------------*/
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    margin: 80px 150px;
+    background-color: #FFFFFF;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0 10px 5px rgb(238, 235, 235);
+    border-image-slice: 1;
+    overflow:hidden;
+    padding-bottom: 10px;
+}
+.player-thumbnail{
+
+}
+.player-thumbnail img{
+    margin: 15px;
+    display: block;
+}
+
+.player-info{
+    margin: 15px;
+}
+.player-info h3{
+    font-weight: 700px;
+    font-size: 28px;
+    color: #18191F;
+}
+.player-info p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+/*--------------------------------/*
+    Footer Section style
+/*--------------------------------*/
+.footer-section{
+}
+.footer-section img{
+    margin: auto;
+    display: block;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon a i{
+    
+}
+.social-icon i{
+    width: 32px;
+    height: 32px;
+    color: #969BAB;
+}
+.footer-section p{
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400px;
+}
