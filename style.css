@@ -326,6 +326,9 @@ hr{
         line-height: 50px;
         padding-top: 80px;
     }
+    .banner-title h1:hover{
+    transform: translate(-10px); 
+}
     .banner-title button{
         width: 168px;
         height: 44px;
